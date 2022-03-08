@@ -270,8 +270,7 @@ plt.legend()
 plt.xlabel("Number of Epochs")
 plt.ylabel("Accuracy and MSE")
 ```
-
-##Result
+### Result
 
 ```
     Final accuracy is:  0.6977
