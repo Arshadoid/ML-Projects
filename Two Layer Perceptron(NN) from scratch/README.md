@@ -175,14 +175,14 @@ Y_validation = Y_test[:]
 ## Training and Testing Neural Network
 
 # Tunable hyperparameters
-max_epoch = 5      # Number of epochs 
-eta = 0.8             # Intial learning rate
-gamma = 0.7         # Multiplier for the learning rate
-stepsize = 1        # Epochs before changing learning rate
+max_epoch = 31      # Number of epochs 
+eta = 0.5             # Intial learning rate
+gamma = 0.9         # Multiplier for the learning rate
+stepsize = 3        # Epochs before changing learning rate
 threshold = 0.08    # Stopping criteria
-test_interval = 1   # Epoch interval for performance measurement
-hidden_layer_1_size = 28    # Size of hidden layer 1 
-hidden_layer_2_size = 28    # Size of hidden layer 2
+test_interval = 2   # Epoch interval for performance measurement
+hidden_layer_1_size = 196    # Size of hidden layer 1 
+hidden_layer_2_size = 10    # Size of hidden layer 2
 
 performance=[]      # Initializing performance array
 MSE=[]              # Initializing MSE array
@@ -271,35 +271,15 @@ plt.xlabel("Number of Epochs")
 plt.ylabel("Accuracy and MSE")
 ```
 
-    Epoch:  0
-    Learning rate:  0.8
-    
+##Result
 
-    C:\Users\arsha\AppData\Local\Temp\ipykernel_2536\3095669701.py:2: RuntimeWarning: overflow encountered in exp
-      sig_func = 1/(1+np.exp(-x))
-    
-
-    Epoch:  1
-    Learning rate:  0.8
-    Epoch:  2
-    Learning rate:  0.5599999999999999
-    Epoch:  3
-    Learning rate:  0.39199999999999996
-    Epoch:  4
-    Learning rate:  0.2744
-    Final accuracy is:  0.6977
-    Final MSE is:  0.25263315857887614
+    ###Final accuracy is:  0.6977
+    ###Final MSE is:  0.25263315857887614
     
 
 
 
-
-    Text(0, 0.5, 'Accuracy and MSE')
-
-
-
-
     
-![png](scratch_files/scratch_8_4.png)
+![png](https://github.com/Arshadoid/ML-Projects/blob/main/Two%20Layer%20Perceptron(NN)%20from%20scratch/Picture1.png)
     
 
