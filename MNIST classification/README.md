@@ -539,11 +539,6 @@ Y_valid_pred = clf_SVM.predict(X_validation_flt)
 metrics.accuracy_score(Y_validation,Y_valid_pred)
 ```
 
-    C:\Users\arsha\anaconda3\envs\tf\lib\site-packages\sklearn\svm\_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-      warnings.warn(
-    
-
-
 
 
     0.9844
@@ -720,7 +715,7 @@ img_id
 
 
     
-![png](MNISTClassifaction_files/MNISTClassifaction_91_0.png)
+![png](https://github.com/Arshadoid/ML-Projects/blob/main/MNIST%20classification/Picture1.png)
     
 
 
@@ -767,11 +762,11 @@ plt.show()
 print(Y_test_pred_full[1])
 ```
 
-
+#### Actual image
     
-![png](MNISTClassifaction_files/MNISTClassifaction_92_0.png)
+![png](https://github.com/Arshadoid/ML-Projects/blob/main/MNIST%20classification/Picture2.png)
     
 
-
+#### Predicted as
     2
     
