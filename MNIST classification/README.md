@@ -712,12 +712,12 @@ arr.shape = (4,5)
 print(arr)
 img_id
 ```
-
+#### Actual images
 
     
 ![png](https://github.com/Arshadoid/ML-Projects/blob/main/MNIST%20classification/Picture1.png)
     
-
+#### Predicated as
 
     [[5 7 0 0 3]
      [1 4 9 4 8]
@@ -726,7 +726,7 @@ img_id
     
 
 
-
+#### Indices of the wrongly predicted datapoints  
 
     [5138,
      4176,
