@@ -717,7 +717,7 @@ img_id
     
 ![png](https://github.com/Arshadoid/ML-Projects/blob/main/MNIST%20classification/Picture1.png)
     
-#### Predicated as
+#### Predicted as
 
     [[5 7 0 0 3]
      [1 4 9 4 8]
