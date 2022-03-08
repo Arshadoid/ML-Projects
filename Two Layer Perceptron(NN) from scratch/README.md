@@ -273,10 +273,10 @@ plt.ylabel("Accuracy and MSE")
 
 ##Result
 
-
+```
     Final accuracy is:  0.6977
     Final MSE is:  0.25263315857887614
-    
+``` 
 
 
 
