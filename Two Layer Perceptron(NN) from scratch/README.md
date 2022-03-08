@@ -1,4 +1,4 @@
-## @author: Arshad Mehtiyev
+## @author: Arshad M.
 
 ## This program creates, sets and runs Neural Network (aka Multi-layer perceptron) with 2 hidden layers, and this makes total of 4 layers (including input and output layers). Structure is:
 ### input layer -> hidden layer 1 -> hidden layer 2 -> output layer 
